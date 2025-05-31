@@ -1,0 +1,83 @@
+
+#home-section1{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+}
+.div{
+    width: 540px;
+    height: 485px;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color:#eb2323;
+    padding-top: 0%;
+}
+.div form h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+form{
+    background-color: white;
+    width: 500px;
+    height: 430px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+form table {
+    padding-left: 20px;
+   
+}
+table td label{
+
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+table td .inp{
+
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 16px
+}
+
+table td .inp1{
+
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+form .btn{
+
+    margin-top: 20px;
+    margin-left: 170px;
+    width: 150px;
+    height: 38px;
+    border: 1px solid red;
+    background-color:#eb2323;
+    border-radius: 5px;
+    color: white;
+    font-size:20px;
+}
+.body{
+
+    background-color:black;
+}
