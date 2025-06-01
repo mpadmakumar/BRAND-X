@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    
+   
+</head>
+<style>
+       
+#home-section1{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+}
+.div{
+    width: 500px;
+    height: 410px;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color:#eb2323;
+    padding-top: 0%;
+}
+.div form h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:cursive;
+}
+form{
+    background-color: white;
+    width: 460px;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+form table {
+    padding-left: 30px;
+    margin-top: 15px;
+   
+}
+table td label{
+
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-family:cursive;
+}
+table td .inp{
+
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-left: 6px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+table td .inp1{
+
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+form .btn{
+
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid red;
+    background-color:#eb2323;
+    border-radius: 5px;
+    color: white;
+    font-size:20px;
+}
+form h2{
+    margin-left: 120px;
+    margin-top: 30px;
+    font-family:cursive;
+}
+a{
+    text-decoration: none;
+}
+.body{
+
+    background-color:black;
+}
+</style>
+<body class="body">
+    <section id="home-section1">
+            <div class="div">
+                 <form id="form" name="form" onsubmit="return(login())" action="./index.html">
+                    <h1 >Login Form</h1>
+                    <table>
+                        <tr>
+                            <td>
+                                 <label>Name</label>
+                            </td>
+                             <td>
+                                <input type="text" class="inp" placeholder="Enter your  Name"  id="name">
+                            </td>
+                         </tr>
+                         <tr>
+                             <td>
+                                <label>password</label>
+                             </td>
+                             <td>
+                                <input type="password" class="inp" placeholder="create a Password" id="password">
+                            </td>
+                         </tr>
+                     </table>
+                     <button class="btn"  >submit</button>
+                     <h2>
+                        New User ?<a href="./register.html">Register</a>
+                     </h2>
+                 </form>
+            </div>
+            <div class="img">
+                <img src="./images/marquee_8.png" height="560px" width="450px">
+            </div>
+        </section>
+</body>
+<script src="./index.js"></script>
+</html>

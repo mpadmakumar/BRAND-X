@@ -41,17 +41,43 @@ function validate(){
     		document.form.name.focus();
     		return false;
     	}
-    	if(password != Cpassword){
+    	if(Password != cPassword){
     		 alert("check Your conform Password");
-    		 document.form.Cpassword.focus();
+    		 document.form.cPassword.focus();
     		 return false;
     	}
     	
-       return true;
+       
+
+	  localStorage.setItem("USERNAME",userName);
+	  localStorage.setItem("PASSWORD",Password);
+
+	   return true;
       
   }
 
-  function hi(){
-    alert("hi");
-    console.log("hi");
+  function login(){
+	let userName = document.getElementById('name').value;
+	let Password = document.getElementById('password').value;
+
+	let USERNAME = localStorage.getItem("USERNAME");
+	let PASSWORD = localStorage.getItem("PASSWORD");
+	
+	if(userName !== USERNAME){
+		alert("invalid userName");
+		document.form.password.value="";
+		document.form.name.focus();
+    	return false;
+	}
+	else if(Password !== PASSWORD){
+		alert("invalid password");
+		document.form.password.value="";
+     	document.form.password.focus();
+     	return false;
+	}
+	else{
+		
+		alert("Welcome "+USERNAME);
+	}
+	return true;
   }

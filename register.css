@@ -9,11 +9,11 @@
 }
 .div{
     width: 540px;
-    height: 485px;
-    margin-top: 40px;
+    height: 515px;
+    margin-top: 20px;
     border: 1px solid black;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     background-color:#eb2323;
     padding-top: 0%;
 }
@@ -21,11 +21,12 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
+    font-family:cursive;
 }
 form{
     background-color: white;
     width: 500px;
-    height: 430px;
+    height: 460px;
     margin-left: 20px;
     margin-right: 30px;
     border-radius: 10px;
@@ -38,8 +39,9 @@ form table {
 table td label{
 
     font-size: 23px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
+    font-family:cursive;
 }
 table td .inp{
 
