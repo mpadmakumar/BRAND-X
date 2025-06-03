@@ -43,7 +43,8 @@ function validate(){
     	}
     	if(Password != cPassword){
     		 alert("check Your conform Password");
-    		 document.form.cPassword.focus();
+			 document.form.Cpassword.value="";
+    		 document.form.Cpassword.focus();
     		 return false;
     	}
     	
@@ -79,5 +80,7 @@ function validate(){
 		
 		alert("Welcome "+USERNAME);
 	}
+	
 	return true;
   }
+
